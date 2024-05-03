@@ -30,13 +30,17 @@ const Home = () => {
       </section>
 
       <section id="newsletter">
-        <div className="container">
-          <h1>Subscribe to our Newsletter</h1>
-          <form>
-            <input type="email" id="email" autocomplete="off" placeholder="Enter your Email..." />
-            <button type="submit" class="button_1">Subscribe</button>
-          </form>
-        </div>
+      <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "UHY7UoIZCLimpnxRCamIK",
+        domain: "www.chatbase.co"}
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="UHY7UoIZCLimpnxRCamIK"
+        domain="www.chatbase.co"
+        defer>
+        </script>
       </section>
 
       <section id="boxes">
